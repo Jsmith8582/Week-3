@@ -41,24 +41,25 @@ public class Practice {
 //			MultiplesOf2[N - 1] = N * 2;
 //			System.out.println("Number: " + MultiplesOf2[N - 1]);
 //		}
+//		Challenge from week 2 quiz Trial run. Finally runs correct, how I expected it to.
 		
-		char  LetterGrade = 'A';
-	    double NumericGrade = 65;
-
-	    if (NumericGrade <=100 && NumericGrade >=90) {
-	    			LetterGrade = 'A';
-	    		} else if (NumericGrade <=89 && NumericGrade >= 80) {
-	    			LetterGrade = 'B';
-	    		} else if (NumericGrade <=79 && NumericGrade >= 70) {
-	    			LetterGrade = 'C';
-	    		} else if (NumericGrade <=69 && NumericGrade >= 60) {
-	    			LetterGrade = 'D';
-	    		} else if (NumericGrade <=59 && NumericGrade >= 0) {
-	    			LetterGrade = 'F';
-	    		}
-		
-		
-		
+//		char  letterGrade = 'A';
+//	    double numericGrade = 49;
+//
+//	    if (numericGrade <=100 && numericGrade >=90) {
+//	    			letterGrade = 'A';
+//	    		} else if (numericGrade <=89 && numericGrade >= 80) {
+//	    			letterGrade = 'B';
+//	    		} else if (numericGrade <=79 && numericGrade >= 70) {
+//	    			letterGrade = 'C';
+//	    		} else if (numericGrade <=69 && numericGrade >= 60) {
+//	    			letterGrade = 'D';
+//	    		} else if (numericGrade <=59 && numericGrade >= 0) {
+//	    			letterGrade = 'F';
+//	    		}
+//	    System.out.println(letterGrade);
+	
+			
 	}
 
 }
