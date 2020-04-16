@@ -59,7 +59,22 @@ public class Practice {
 //	    		}
 //	    System.out.println(letterGrade);
 	
-			
+		String name = "bob";
+		System.out.println(name.toUpperCase()); 
+		System.out.println("josh".toUpperCase()); 
+		
+		String Sentence = " This is a practice sentence to see how Trim Works " ;
+		System.out.println(Sentence.trim());
+		
+		System.out.println(Sentence.toUpperCase());
+		System.out.println(Sentence.length());
+		System.out.println(Sentence.intern());
+		System.out.println(Sentence.isEmpty());
+		System.out.println(Sentence.hashCode());
+		
+		
+		
+		
 	}
 
 }
