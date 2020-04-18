@@ -28,16 +28,17 @@ public class Methods {
 		lastName = "Daniels";
 		System.out.println(createFullName(firstName, lastName));
 	}
-//	{
-//		System.out.println("Choose your Character!");
-//		System.out.println("1) Samus") ;
-//		System.out.println("2) Donkey Kong");
-//		System.out.println("3) Captain Falcon");
-//		System.out.println("4) Kirby");
-//			
-//	}
+
 		public static String createFullName(String x, String y) {
 			return x + " " + y;
+			
+			
+			
+			
+			
+			
+			
+			
 		}
 		
 

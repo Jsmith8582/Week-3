@@ -33,6 +33,7 @@ public class Practice {
 		
 		for (String GroceryList : Groceries) {
 			System.out.println(GroceryList);
+			System.out.println(GroceryList.s);
 		}
 		
 //		int [] MultiplesOf2 = new int [6];
