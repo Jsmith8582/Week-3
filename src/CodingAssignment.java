@@ -28,43 +28,84 @@ public class CodingAssignment {
 		System.out.println(average1); //# 5
 		
 		for (String name : names)
-		System.out.println(name);
+		System.out.println(name); //ln 6-12
 		
 		String allNames = "";
 		for (int n = 0; n < names.length; n++) {
 			allNames += names[n] + " ";
 		}
-		System.out.println("Concatenated names from names: " + allNames);
+		System.out.println("Concatenated names from names: " + allNames); //ln 13
 
 //Question 5		
-		int nameLengths[];
+		int nameLengths = 0;
 			for (String name : names) {
 			nameLengths += name.length();
-			ut.print("what?")
+			}
+			System.out.println(nameLengths); //ln 14
 			
 //Question 6	
-
-			
+		int namesSum = 0;
+		for (int i = 0; i < names.length; i++) {
+			namesSum ++;
+		} 
+		System.out.println(namesSum); //ln 15
 //Question 7
-			
-			
+		int n = 3;
+		String word = "Hello";
+		System.out.println(wordMultiplier(word, n));//not right
+					
 //Question 8
-		
+		String firstName = "Joshua";
+		String lastName = "Smith";
+		System.out.println(fullName(firstName, lastName));
 	
 //Question 9			
 	
+		
+//Question 10		
+		
+		
+//Question 11
+		
+		
+//Question 12		
+		
+		
+//Question 13		
+		
+		
+		
 	}
+		public static String wordMultiplier(String x, int y) {
+			return x + y;
+		}
 	
-		public static int countLetters(String[] array) {
-		int sum = 0;
-				for (String value : array) {
-				sum += value.length();
-				}
-				return sum;
+		public static String fullName(String x, String y) {
+			return x + " " + y;
 		}
 		
-//
+		public static int countLetters(String[] array) {
+			int sum = 0;
+			for (String value : array) {
+				sum += value.length();
+			}
+			return sum;
+		}
 		
-	
-
+		public static boolean greaterThan(int[] numbers) {
+			int sum = 0;
+			for (int value : array) {
+				sum += value.length();
+			}
+			return sum <= 100;
+		}
+		
+		public static double theAverage(double[] moreNumbers) {
+			
+		}
+		
+		public static double moreThanOther(double[] first, double[] second) {
+			
+		}
+		
 }

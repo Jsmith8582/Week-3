@@ -11,7 +11,6 @@ public class Methods {
 		String firstName = "Joshua";
 		String lastName = "Smith";
 		String fullName = createFullName(firstName, lastName);
-		
 		System.out.println(fullName);
 		
 		String nickName = "Josh";
@@ -31,17 +30,6 @@ public class Methods {
 
 		public static String createFullName(String x, String y) {
 			return x + " " + y;
-			
-			
-			
-			
-			
-			
-			
-			
 		}
-		
-
-			
 		
 }
