@@ -52,7 +52,7 @@ public class CodingAssignment {
 //Question 7
 		int n = 3;
 		String word = "Hello";
-		System.out.println(wordMultiplier(word, n));//not right
+		System.out.println(wordMultiplier(word, n));
 					
 //Question 8
 		String firstName = "Joshua";
@@ -60,7 +60,8 @@ public class CodingAssignment {
 		System.out.println(fullName(firstName, lastName));
 	
 //Question 9			
-	
+		int[] numbers = {2, 2, 1, 4};
+		System.out.println(greaterThan(numbers));
 		
 //Question 10		
 		
@@ -69,7 +70,7 @@ public class CodingAssignment {
 		
 		
 //Question 12		
-		
+		System.out.println(willBuyDrink(11.0, true));
 		
 //Question 13		
 		
@@ -77,7 +78,11 @@ public class CodingAssignment {
 		
 	}
 		public static String wordMultiplier(String x, int y) {
-			return x + y;
+			String x2 = "";
+			for (int y2 = 0; y2 < y; y2++) {
+				x2 += x; //x2 = x + x2
+			}			
+			return x2;
 		}
 	
 		public static String fullName(String x, String y) {
@@ -94,18 +99,43 @@ public class CodingAssignment {
 		
 		public static boolean greaterThan(int[] numbers) {
 			int sum = 0;
-			for (int value : array) {
-				sum += value.length();
+			for (int value : numbers) {
+				sum += numbers[value];
 			}
-			return sum <= 100;
+			if (sum >= 100) {
+			return true;
+			} else {
+				return false;
+			}
+	}	
+	
+		/*
+		 * 	Write a method called willBuyDrink
+		 *  that takes a boolean isHotOutside,
+		 *  and a double moneyInPocket, 
+		 *  and returns true 
+		 *  
+		 *  if it is hot outside 
+		 *  and if 
+		 *  moneyInPocket is greater than 10.50.
+		 */
+		public static boolean willBuyDrink(double moneyInPocket, boolean isHotOutside) {
+			//boolean willBuyDrink = false;
+			if (moneyInPocket > 10.50 && isHotOutside) {
+				return true;
+			}
+			
+			
+			return false;
 		}
 		
-		public static double theAverage(double[] moreNumbers) {
-			
-		}
 		
-		public static double moreThanOther(double[] first, double[] second) {
+		//public static double theAverage(double[] moreNumbers) {
 			
-		}
+		//}
+		
+		//public static double moreThanOther(double[] first, double[] second) {
+			
+		//}
 		
 }
